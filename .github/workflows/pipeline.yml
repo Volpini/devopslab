@@ -25,6 +25,9 @@ jobs:
       - name: Unit Test
         run: coverage run -m unittest
       
+      - name: Coverage export xml
+        run: coverage xml
+      
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
@@ -32,6 +35,7 @@ jobs:
           path: coverage.xml
 
   SonarCloud:
+    needs: Build
     name: SonarCloud
     runs-on: ubuntu-latest
     steps:
