@@ -2,7 +2,7 @@
 from app import app
 import unittest
 
-class Test(unittest.TestCase):
+class TestPaginaInicial(unittest.TestCase):
     def setUp(self):
         # cria uma instância do unittest, precisa do nome "setUp"
         self.app = app.test_client()
