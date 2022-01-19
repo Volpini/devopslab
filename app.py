@@ -41,5 +41,13 @@ def aso():
 def lore():
     return "ipsum"
 
+@app.route("/cober")
+def cober():
+    return "tura"
+
+@app.route("/tura")
+def tura():
+    return "cober"
+
 if __name__ == '__main__':
     app.run()
