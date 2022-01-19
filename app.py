@@ -10,35 +10,35 @@ def pagina_inicial():
     return "Hello World - Bruno Volpini"
 
 @app.route("/fiap")
-def pagina_inicial():
+def fiap():
     return "From FIAP route"
 
 @app.route("/fiap/challenge")
-def pagina_inicial():
+def fiap_challenge():
     return "This increments the number of lines of code to allow SonarQube to actually scan the entire code"
 
 @app.route("/fiap/group")
-def pagina_inicial():
+def fiap_group():
     return "Grupo 9 (Ana, Bruno, Danilo e Fabian)"
 
 @app.route("/foo")
-def pagina_inicial():
+def foo():
     return "foo"
 
 @app.route("/bar")
-def pagina_inicial():
+def bar():
     return "bar"
 
 @app.route("/healthcheck")
-def pagina_inicial():
+def healthcheck():
     return "OK"
 
 @app.route("/6aso")
-def pagina_inicial():
+def aso():
     return "6ASO"
 
 @app.route("/lore")
-def pagina_inicial():
+def lore():
     return "ipsum"
 
 if __name__ == '__main__':
