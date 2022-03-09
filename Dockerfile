@@ -2,7 +2,7 @@
 FROM python:rc-slim
 
 # Declarando a váriavel do nome do arquivo de configuração do NewRelic
-ENV NEW_RELIC_CONFIG_FILE=newrelic.ini 
+ENV NEW_RELIC_CONFIG_FILE=newrelic.ini
 ENV NEW_RELIC_LICENSE_KEY=licensekey
 
 # Definindo o diretório onde a aplicação será armazenada
