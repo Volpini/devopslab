@@ -46,7 +46,7 @@
 
     - name: Instalação do GCLOUD, Terraform, Docker e outras dependências
       apt:
-        pkg: ['google-cloud-sdk','unzip', 'docker-ce', 'build-essential', 'virtualenv', 'zlib1g-dev', 'libssl-dev', 'libncurses-dev', 'libffi-dev', 'libsqlite3-dev', 'libreadline-dev', 'libbz2-dev', 'ruby', 'python-is-python3']
+        pkg: ['apache2-utils', 'google-cloud-sdk','unzip', 'docker-ce', 'build-essential', 'virtualenv', 'zlib1g-dev', 'libssl-dev', 'libncurses-dev', 'libffi-dev', 'libsqlite3-dev', 'libreadline-dev', 'libbz2-dev', 'ruby', 'python-is-python3']
         state: present
 
     - name: Manter sempre a última versão do Git e Terraform 
