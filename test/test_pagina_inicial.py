@@ -16,4 +16,4 @@ class TestPaginaInicial(unittest.TestCase):
 
     def test_conteudo(self):
         # verifica o retorno do conteudo da pagina
-        self.assertEqual(self.result.data.decode('utf-8'), "Hello World - Grupo G9")
+        self.assertEqual(self.result.data.decode('utf-8'), "Hello World - Grupo G9! Entrega do solution sprint!")
