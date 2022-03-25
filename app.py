@@ -7,7 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return "Hello World - Grupo G9! Entrega do solution sprint!"
+    return "Hello World - Grupo G9! Entrega do solution sprint! Versão final"
 
 @app.route("/fiap")
 def fiap():
